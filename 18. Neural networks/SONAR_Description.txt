@@ -87,28 +87,28 @@ RESULTS:
 For the angle independent experiments, Gorman and Sejnowski report the
 following results for networks with different numbers of hidden units:
 
-Hidden	% Right on	Std.	% Right on	Std.
-Units	Training set	Dev.	Test Set	Dev.
-------	------------	----	----------	----
-0	89.4		2.1	77.1		8.3
-2	96.5		0.7	81.9		6.2
-3	98.8		0.4	82.0		7.3
-6	99.7		0.2	83.5		5.6
-12	99.8		0.1	84.7		5.7
-24	99.8		0.1	84.5		5.7
+Hidden  |	% Right on	  |  Std. |	   % Right on |	   Std.
+Units   |	Training set  |  Dev. |    Test Set   |    Dev.
+--------|-----------------|-------|---------------|-----------
+0	    |    89.4		  |  2.1  |    77.1       |    8.3
+2	    |    96.5		  |  0.7  |    81.9       |    6.2
+3	    |    98.8		  |  0.4  |    82.0       |    7.3
+6	    |    99.7		  |  0.2  |    83.5       |    5.6 
+12	    |    99.8		  |  0.1  |    84.7       |    5.7
+24	    |    99.8		  |  0.1  |    84.5       |    5.7
 
 For the angle-dependent experiments Gorman and Sejnowski report the
 following results:
 
-Hidden	% Right on	Std.	% Right on	Std.
-Units	Training set	Dev.	Test Set	Dev.
-------	------------	----	----------	----
-0	79.3		3.4	73.1		4.8
-2	96.2		2.2	85.7		6.3
-3	98.1		1.5	87.6		3.0
-6	99.4		0.9	89.3		2.4
-12	99.8		0.6	90.4		1.8
-24     100.0		0.0	89.2		1.4
+Hidden | % Right on	  |  Std.	 |   % Right on	 |  Std.
+Units  | Training set |  Dev.	 |   Test Set	 |  Dev.
+-------|--------------|----------|---------------|-------
+0	   | 79.3		  |  3.4	 |   73.1		 |  4.8
+2	   | 96.2		  |  2.2	 |   85.7		 |  6.3
+3	   | 98.1		  |  1.5	 |   87.6		 |  3.0
+6	   | 99.4		  |  0.9	 |   89.3		 |  2.4
+12	   | 99.8		  |  0.6	 |   90.4		 |  1.8
+24     | 100.0		  |  0.0	 |   89.2		 |  1.4
 
 Not surprisingly, the network's performance on the test set was somewhat
 better when the aspect angles in the training and test sets were balanced.
